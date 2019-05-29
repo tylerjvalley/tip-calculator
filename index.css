@@ -1,0 +1,72 @@
+* {
+  background: #44a08d; /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #44a08d, #093637); /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #44a08d, #093637); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#main {
+  width: 30em;
+  height: 37em;
+  align-items: center;
+  position: absolute;
+  left: 400px;
+  top: 60px;
+  background: white;
+}
+
+#title {
+  background: white;
+  text-align: center;
+}
+
+#title h1 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#form {
+  position: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+
+}
+
+#form, label, .input {
+  background: white;
+}
+
+label {
+  font-family: 'Lato', sans-serif;
+  margin: 0 5px 0 10px;
+}
+
+label, .input {
+  margin-bottom: 50px;
+}
+
+.output {
+  border: 1px solid black;
+  position: relative;
+  top: 2em;
+  background: white;
+  height: 4em;
+}
+
+.output h3 {
+  background: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-left: 5em;
+}
+
+#submit {
+  background: white;
+  position: relative;
+  top: 15em;
+  left: 15em;
+  width: 10em;
+  height: 20px;
+}
